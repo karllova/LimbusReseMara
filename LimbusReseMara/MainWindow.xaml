@@ -17,13 +17,28 @@
             <Button x:Name="ApplyButton" Click="ApplyButton_OnClick" Margin="0 0 10 0" Grid.Column="0" Content="확인"/>
             <Button x:Name="ResetButton" Click="ResetButton_OnClick" Grid.Column="1" Content="리셋"/>
         </Grid>
-        <Grid>
+        <Grid Margin="0 10 0 10 ">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Text="EGO 개수" Grid.Column="0" Margin="0 10 0 10 "/>
-            <TextBox x:Name="Egos"  Grid.Column="1" Width="100" Height="20" HorizontalAlignment="Left"/>
+            <Grid Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="EGO 개수" Grid.Column="0" />
+                <TextBox x:Name="Egos" Text="0" Grid.Column="1" Width="100" Height="20" HorizontalAlignment="Left"/>
+
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="clip" Text="LimbusCompany" Grid.Column="0" Width="100" Height="20" HorizontalAlignment="Left"/>
+                <Button x:Name="clipB" Click="ClipB_OnClick" Grid.Column="1" Content="복사" Width="100" HorizontalAlignment="Left"/>
+            </Grid>
         </Grid>
         <TextBlock Text="인격 목록" Margin="0 0 0 10"/>
         <Grid Margin="0 0 0 10">

@@ -50,14 +50,14 @@ public class Dict
         charInfo.Add("흑운회 와카슈 홍루",new info(10,2));
         charInfo.Add("갈고리 사무소 해결사 홍루",new info(10,2));
         charInfo.Add("R사 제4무리 토끼팀 히스클리프",new info(50,3));
-        charInfo.Add("피쿼드호 작살잡이 히스클리프",new info(25,3));
+        charInfo.Add("피쿼드호 작살잡이 히스클리프",new info(40,3));
         charInfo.Add("남부 외우피 협회 3과 히스클리프",new info(10,3));
         charInfo.Add("로보토미 E.G.O:: 여우비 히스클리프",new info(0,3));
         charInfo.Add("남부 세븐 협회 4과 히스클리프",new info(10,2));
         charInfo.Add("피쿼드호 선장 이스마엘",new info(50,3));
         charInfo.Add("어금니 보트 센터 해결사 이스마엘",new info(25,3));
         charInfo.Add("남부 리우 협회 4과 이스마엘",new info(10,3));
-        charInfo.Add("R사 제 4무리 순록팀 이스마엘",new info(10,3));
+        charInfo.Add("R사 제 4무리 순록팀 이스마엘",new info(0,3));
         charInfo.Add("남부 디에치 협회 4과 로쟈",new info(40,3));
         charInfo.Add("남부 리우 협회 4과 부장 로쟈",new info(10,3));
         charInfo.Add("흑운회 와카슈 로쟈",new info(0,3));

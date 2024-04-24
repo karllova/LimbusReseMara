@@ -22,16 +22,18 @@ public partial class MainWindow : Window
     public Dictionary<string, int> stats;
     private Dict dict = new Dict();
     public int EgoNum = 0;
+
     public MainWindow()
     {
         InitializeComponent();
         TotalPoint = 0;
         stats = new Dictionary<string, int>();
-        stats.Add("zeroTiers",0);
-        stats.Add("point5Tiers",0);
-        stats.Add("ThreeStars",0);
-        stats.Add("TwoStars",0);
+        stats.Add("zeroTiers", 0);
+        stats.Add("point5Tiers", 0);
+        stats.Add("ThreeStars", 0);
+        stats.Add("TwoStars", 0);
     }
+
     public int GetTotalPoint()
     {
         return TotalPoint;
@@ -42,11 +44,12 @@ public partial class MainWindow : Window
         CheckBox C = (CheckBox)sender;
         string content = C.Content.ToString();
         TotalPoint += dict.GetValue(content)[0];
-        if (dict.GetValue(content)[0]==50)
+        if (dict.GetValue(content)[0] == 50)
         {
             stats["zeroTiers"]++;
         }
-        if (dict.GetValue(content)[0]==40)
+
+        if (dict.GetValue(content)[0] == 40)
         {
             stats["point5Tiers"]++;
         }
@@ -66,11 +69,12 @@ public partial class MainWindow : Window
         CheckBox C = (CheckBox)sender;
         string content = C.Content.ToString();
         TotalPoint -= dict.GetValue(content)[0];
-        if (dict.GetValue(content)[0]==50)
+        if (dict.GetValue(content)[0] == 50)
         {
             stats["zeroTiers"]--;
         }
-        if (dict.GetValue(content)[0]==40)
+
+        if (dict.GetValue(content)[0] == 40)
         {
             stats["point5Tiers"]--;
         }
@@ -87,7 +91,7 @@ public partial class MainWindow : Window
 
     private void ApplyButton_OnClick(object sender, RoutedEventArgs e)
     {
-        EgoNum = int.Parse(Egos.Text)*5;
+        EgoNum = int.Parse(Egos.Text) * 5;
         TotalPoint = TotalPoint + EgoNum;
         Window result = new Result();
         result.Show();
@@ -102,8 +106,9 @@ public partial class MainWindow : Window
             stats[keys] = 0;
         }
 
-        Egos.Text = "";
+        Egos.Text = "0";
     }
+
     private void UncheckAllCheckBoxes(DependencyObject obj)
     {
         // ScrollViewer 안에 있는 모든 StackPanel을 찾습니다.
@@ -136,5 +141,10 @@ public partial class MainWindow : Window
                 }
             }
         }
+    }
+
+    private void ClipB_OnClick(object sender, RoutedEventArgs e)
+    {
+        Clipboard.SetText("LimbusCompany");
     }
 }

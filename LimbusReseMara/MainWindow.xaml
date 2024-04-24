@@ -1,0 +1,166 @@
+﻿<Window x:Class="LimbusReseMara.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LimbusReseMara"
+        mc:Ignorable="d"
+        Title="Limbus" Height="450" Width="800" >
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+    <StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        
+            <Button x:Name="ApplyButton" Click="ApplyButton_OnClick" Margin="0 0 10 0" Grid.Column="0" Content="확인"/>
+            <Button x:Name="ResetButton" Click="ResetButton_OnClick" Grid.Column="1" Content="리셋"/>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="10*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="EGO 개수" Grid.Column="0" Margin="0 10 0 10 "/>
+            <TextBox x:Name="Egos"  Grid.Column="1" Width="100" Height="20" HorizontalAlignment="Left"/>
+        </Grid>
+        <TextBlock Text="인격 목록" Margin="0 0 0 10"/>
+        <Grid Margin="0 0 0 10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <StackPanel Grid.Column="0" Margin="0 0 10 0">
+                <TextBlock Text="이상"/>
+                <CheckBox Content="개화 E.G.O:: 동백 이상" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="W사 3등급 정리 요원 이상" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="검계 살수 이상" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="피쿼드호 일등항해사 이상" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="0 0 10 0">
+                <TextBlock Text="파우스트"/>
+                <CheckBox Content="로보토미 E.G.O:: 후회 파우스트" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="남부 세븐 협회 4과 파우스트" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="검계 살수 파우스트" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="쥐는 자 파우스트" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="살아남은 로보토미 직원 파우스트" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                
+            </StackPanel>
+        </Grid>
+        <Grid Margin="0 0 0 10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <StackPanel Grid.Column="0" Margin="0 0 10 0">
+                <TextBlock Text="돈키호테"/>
+                <CheckBox Content="중지 작은 아우 돈키호테" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="W사 3등급 정리 요원 돈키호테" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="남부 섕크 협회 5과 부장 돈키호테" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="남부 시 협회 5과 부장 돈키호테" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="검계 살수 돈키호테" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="0 0 10 0">
+                <TextBlock Text="료슈"/>
+                <CheckBox Content="에드가 가문 치프 버틀러 료슈" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="W사 3등급 정리 요원 료슈" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="흑운회 와카슈 료슈" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="료.고.파. 주방장 료슈" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="남부 세븐 협회 6과 료슈" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+            </StackPanel>
+        </Grid>
+        <Grid Margin="0 0 0 10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <StackPanel Grid.Column="0" Margin="0 0 10 0">
+                <TextBlock Text="뫼르소"/>
+                <CheckBox Content="검계 우두머리 뫼르소" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="W사 2등급 정리 요원 뫼르소" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="N사 큰 망치 뫼르소" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="R사 제 4무리 코뿔소팀 뫼르소" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="중지 작은 아우 뫼르소" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="데드레빗츠 보스 뫼르소" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="0 0 10 0">
+                <TextBlock Text="홍루"/>
+                <CheckBox Content="K사 3등급 적출직 직원 홍루" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="남부 디에치 협회 4과 홍루" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="콩콩이파 두목 홍루" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="흑운회 와카슈 홍루" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="갈고리 사무소 해결사 홍루" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+            </StackPanel>
+        </Grid>
+        <Grid Margin="0 0 0 10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <StackPanel Grid.Column="0" Margin="0 0 10 0">
+                <TextBlock Text="히스클리프"/>
+                <CheckBox Content="R사 제4무리 토끼팀 히스클리프" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="피쿼드호 작살잡이 히스클리프" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="남부 외우피 협회 3과 히스클리프" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="로보토미 E.G.O:: 여우비 히스클리프" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="남부 세븐 협회 4과 히스클리프" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="0 0 10 0">
+                <TextBlock Text="이스마엘"/>
+                <CheckBox Content="피쿼드호 선장 이스마엘" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="어금니 보트 센터 해결사 이스마엘" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="남부 리우 협회 4과 이스마엘" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="R사 제 4무리 순록팀 이스마엘" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+            </StackPanel>
+        </Grid>
+        <Grid Margin="0 0 0 10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <StackPanel Grid.Column="0" Margin="0 0 10 0">
+                <TextBlock Text="로쟈"/>
+                <CheckBox Content="남부 디에치 협회 4과 로쟈" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="남부 리우 협회 4과 부장 로쟈" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="흑운회 와카슈 로쟈" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="장미스패너 공방 대표 로쟈" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="0 0 10 0">
+                <TextBlock Text="싱클레어"/>
+                <CheckBox Content="남부 섕크 협회 4과 부장 싱클레어" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="쥐어들 자 싱클레어" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="검계 살수 싱클레어" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+            </StackPanel>
+        </Grid>
+        <Grid Margin="0 0 0 10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <StackPanel Grid.Column="0" Margin="0 0 10 0">
+                <TextBlock Text="오티스"/>
+                <CheckBox Content="로보토미 E.G.O:: 마탄 오티스" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="워더링하이츠 치프 버틀러 오티스" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="어금니 사무소 해결사 오티스" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="남부 세븐 협회 6과 부장 오티스" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="0 0 10 0">
+                <TextBlock Text="그레고르"/>
+                <CheckBox Content="쌍갈고리 해적단 부선장 그레고르" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="에드가 가문 승계자 그레고르" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="남부 츠바이 협회 4과 그레고르" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="G사 일등대리 그레고르" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+            </StackPanel>
+        </Grid>
+    </StackPanel>
+    </ScrollViewer>
+</Window>

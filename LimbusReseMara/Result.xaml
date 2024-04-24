@@ -12,6 +12,8 @@
         <TextBlock Text="코멘트" Margin="0 0 0 10"/>
         <TextBox x:Name="Comment" Width="300" Margin="0 0 0 10 " HorizontalAlignment="Left" IsReadOnly="True"/>
         <TextBlock Text="Stats" Margin="0 0 0 10"/>
+        <TextBlock Text="Ego 개수" Margin="0 0 0 10"/>
+        <TextBox x:Name="egos" Width="100" Margin="0 0 0 10 " HorizontalAlignment="Left" IsReadOnly="True"/>
         <TextBlock Text="0티어 개수" Margin="0 0 0 10"/>
         <TextBox x:Name="zeroTiers" Width="100" Margin="0 0 0 10 " HorizontalAlignment="Left" IsReadOnly="True"/>
         <TextBlock Text="0.5티어 개수" Margin="0 0 0 10"/>

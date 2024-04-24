@@ -15,6 +15,7 @@ public partial class Result : Window
         this.point5Tiers.Text = stats["point5Tiers"].ToString();
         this.ThreeStars.Text = stats["ThreeStars"].ToString();
         this.TwoStars.Text = stats["TwoStars"].ToString();
+        this.egos.Text = (((MainWindow)Application.Current.MainWindow).EgoNum/5).ToString();
     }
     private string comments(int point)
     {

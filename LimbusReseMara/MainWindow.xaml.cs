@@ -87,6 +87,8 @@ public partial class MainWindow : Window
 
     private void ApplyButton_OnClick(object sender, RoutedEventArgs e)
     {
+        EgoNum = int.Parse(Egos.Text)*5;
+        TotalPoint = TotalPoint + EgoNum;
         Window result = new Result();
         result.Show();
     }
@@ -99,6 +101,8 @@ public partial class MainWindow : Window
         {
             stats[keys] = 0;
         }
+
+        Egos.Text = "";
     }
     private void UncheckAllCheckBoxes(DependencyObject obj)
     {

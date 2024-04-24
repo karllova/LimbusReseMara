@@ -1,4 +1,4 @@
 
-“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(•àòøÿÿÿÿ8ó˜Êüğ1J$cad233a5-cdcb-4ba7-a6f6-6dfddaa5bda4
-csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÔÔ¨Ó8Ç³ığ1J$10d07d3c-67cf-4f15-a05a-e842ae4b2f6a
-csharpsquid:S4201|"ARemove this unnecessary null check; 'is' returns false for nulls.(òÁ…Ëùÿÿÿÿ8óıúğ1J$17e5459c-4d23-4631-9cbf-8f7db93b47f3
+“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(•àòøÿÿÿÿ8ó˜Êüğ1J$d8e38beb-5b16-4baa-b613-84eb4f6153e9
+csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÔÔ¨Ó8Ç³ığ1J$8fd68198-04e7-42de-8f24-57b77d2ca366
+‘csharpsquid:S4201€"ARemove this unnecessary null check; 'is' returns false for nulls.(òÁ…Ëùÿÿÿÿ8óıúğ1J$6b90bd22-2b44-48d5-b072-437306047d3b

@@ -62,6 +62,7 @@
                 <CheckBox Content="검계 살수 파우스트" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
                 <CheckBox Content="쥐는 자 파우스트" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
                 <CheckBox Content="살아남은 로보토미 직원 파우스트" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="워더링하이츠 버틀러 파우스트" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
                 
             </StackPanel>
         </Grid>
@@ -133,6 +134,7 @@
                 <CheckBox Content="어금니 보트 센터 해결사 이스마엘" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
                 <CheckBox Content="남부 리우 협회 4과 이스마엘" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
                 <CheckBox Content="R사 제 4무리 순록팀 이스마엘" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="에드가 가문 버틀러 이스마엘" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
             </StackPanel>
         </Grid>
         <Grid Margin="0 0 0 10">

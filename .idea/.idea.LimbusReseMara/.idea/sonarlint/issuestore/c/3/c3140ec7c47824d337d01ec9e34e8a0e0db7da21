@@ -1,4 +1,4 @@
 
-mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(•àòøÿÿÿÿ8»„Õ¤ò1
-hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÔÔ¨Ó8¼„Õ¤ò1
-kcsharpsquid:S4201…"ARemove this unnecessary null check; 'is' returns false for nulls.(òÁ…Ëùÿÿÿÿ8¾„Õ¤ò1
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(•àòøÿÿÿÿ8²Åõ1
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÔÔ¨Ó8²Åõ1
+kcsharpsquid:S4201…"ARemove this unnecessary null check; 'is' returns false for nulls.(òÁ…Ëùÿÿÿÿ8‚²Åõ1

@@ -155,6 +155,7 @@
                 <CheckBox Content="남부 섕크 협회 4과 부장 싱클레어" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
                 <CheckBox Content="쥐어들 자 싱클레어" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
                 <CheckBox Content="검계 살수 싱클레어" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="새벽 사무소 해결사 싱클레어" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
             </StackPanel>
         </Grid>
         <Grid Margin="0 0 0 10">

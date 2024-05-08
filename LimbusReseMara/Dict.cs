@@ -52,6 +52,8 @@ public class Dict
         charInfo.Add("어금니 사무소 해결사 오티스",new info(15,3));
         charInfo.Add("쌍갈고리 해적단 부선장 그레고르",new info(15,3));
         charInfo.Add("에드가 가문 승계자 그레고르",new info(15,3));
+        charInfo.Add("새벽 사무소 해결사 싱클레어",new info(15,3));
+        
         #endregion
 
         #region tier2

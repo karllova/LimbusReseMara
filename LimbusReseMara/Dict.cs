@@ -32,6 +32,7 @@ public class Dict
         charInfo.Add("피쿼드호 작살잡이 히스클리프",new info(40,3));
         charInfo.Add("남부 디에치 협회 4과 로쟈",new info(40,3));
         charInfo.Add("쥐어들 자 싱클레어",new info(40,3));
+        charInfo.Add("새벽 사무소 해결사 싱클레어",new info(40,3));
         #endregion
 
         #region tier1
@@ -52,7 +53,6 @@ public class Dict
         charInfo.Add("어금니 사무소 해결사 오티스",new info(15,3));
         charInfo.Add("쌍갈고리 해적단 부선장 그레고르",new info(15,3));
         charInfo.Add("에드가 가문 승계자 그레고르",new info(15,3));
-        charInfo.Add("새벽 사무소 해결사 싱클레어",new info(15,3));
         
         #endregion
 
@@ -95,6 +95,7 @@ public class Dict
         charInfo.Add("남부 세븐 협회 4과 히스클리프",new info(10,2));
         charInfo.Add("워더링하이츠 버틀러 파우스트",new info(10,2));
         charInfo.Add("에드가 가문 버틀러 이스마엘",new info(10,2));
+        charInfo.Add("로보토미 E.G.O:: 초롱 돈키호테",new info(10,2));
         #endregion
     }
 

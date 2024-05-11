@@ -79,6 +79,7 @@
                 <CheckBox Content="남부 섕크 협회 5과 부장 돈키호테" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
                 <CheckBox Content="남부 시 협회 5과 부장 돈키호테" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
                 <CheckBox Content="검계 살수 돈키호테" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
+                <CheckBox Content="로보토미 E.G.O:: 초롱 돈키호테" Checked="Box_Checked" Unchecked="Box_Unchecked"/>
                 
             </StackPanel>
             <StackPanel Grid.Column="1" Margin="0 0 10 0">
